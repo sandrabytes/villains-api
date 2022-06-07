@@ -86,6 +86,6 @@ app.post('/api/villains/', (request, response) => {
   villains.push(entry)
   response.json(entry)
 })
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
