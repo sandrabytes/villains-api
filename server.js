@@ -1,6 +1,6 @@
 const { response, request } = require('express')
 const express = require('express')
-cors = require('cors')
+const cors = require('cors')
 const { json } = require('express/lib/response')
 const app = express()
 const PORT = 4000
