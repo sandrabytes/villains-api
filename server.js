@@ -13,7 +13,7 @@ let villains = [
     "id": 1,
     "name": "scar", 
     "movie": "the lion king",
-    "image": "https://static.wikia.nocookie.net/sexypedia/images/b/b8/Scar_TLK.jpeg/revision/latest?cb=20200607010926"
+    "image": "https://m.media-amazon.com/images/M/MV5BMTU1MzkwNDI5OV5BMl5BanBnXkFtZTgwODU2MTkwMDI@._V1_.jpg"
   },
   { 
     "id": 2,
