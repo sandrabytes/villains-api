@@ -13,25 +13,29 @@ let villains = [
     "id": 1,
     "name": "scar", 
     "movie": "the lion king",
-    "image": "https://m.media-amazon.com/images/M/MV5BMTU1MzkwNDI5OV5BMl5BanBnXkFtZTgwODU2MTkwMDI@._V1_.jpg"
+    "image": "https://m.media-amazon.com/images/M/MV5BMTU1MzkwNDI5OV5BMl5BanBnXkFtZTgwODU2MTkwMDI@._V1_.jpg",
+    "home": "pride lands"
   },
   { 
     "id": 2,
     "name": "ursula", 
     "movie": "the little mermaid",
-    "image": "https://i0.wp.com/foodandcosplay.org/wp-content/uploads/2020/08/ursula-scaled.jpg?fit=2560%2C2560&ssl=1"
+    "image": "https://i0.wp.com/foodandcosplay.org/wp-content/uploads/2020/08/ursula-scaled.jpg?fit=2560%2C2560&ssl=1",
+    "home": "atlantica"
   },
   { 
     "id": 3,
     "name": "cruella de vil", 
     "movie": "101 dalmatians",
-    "image": "https://external-preview.redd.it/KNeOIDkHsvtta7UCQdkHE5P88Pia1m_Z6BGFxfuo1hk.jpg?auto=webp&s=67fd873934ae2ddefaa06091291b5b21094c64c4"
+    "image": "https://external-preview.redd.it/KNeOIDkHsvtta7UCQdkHE5P88Pia1m_Z6BGFxfuo1hk.jpg?auto=webp&s=67fd873934ae2ddefaa06091291b5b21094c64c4",
+    "home": "london"
   },
   { 
     "id": 4,
     "name": "maleficent", 
     "movie": "sleeping beauty",
-    "image": "https://d2ycltig8jwwee.cloudfront.net/reviews/1118/fullwidth.69c2e6cc.jpg"
+    "image": "https://d2ycltig8jwwee.cloudfront.net/reviews/1118/fullwidth.69c2e6cc.jpg",
+    "home": "moors"
   }
 ]
 app.get('/', (request, response) => {
