@@ -20,16 +20,10 @@ MongoClient.connect(connectionString)
   app.get('/', (request, response) => {
   response.sendFile(__dirname + '/index.html')
 })
-app.get('/api/villains/', (request, response) => {
-      response.json(infoCollection)
-})
-app.get('/info', (request, response) => {
-  const currentDate = new Date()
-  response.send(`<h2>Webpage has info for ${villains.length} Villains</h2> <h2>${currentDate}</h2>`)
-})
+
 app.get('/api/villains/:name', (request, response) => {
   const villainName = request.params.name.toLocaleLowerCase()
-    infoCollection.find({name: villainName}).toArray()
+    infoCollection.find({name:villainName}).toArray()
     .then(results => {
       console.log(results)
       response.json(results[0])
